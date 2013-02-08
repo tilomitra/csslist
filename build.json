@@ -3,7 +3,9 @@
     "builds": {
         "gallerycss-csslist": {
             "cssfiles": [
-                "list.css"
+            	"list-core.css",
+                "list.css",
+                "list-responsive.css"
             ]
         }
     }
