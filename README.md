@@ -1,5 +1,5 @@
 gallerycss-csslist
-===============
+==================
 
 Super simple CSS for HTML List Elements. 
 
