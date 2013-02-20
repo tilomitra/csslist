@@ -9,42 +9,17 @@
     <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csslist/master/css/list.css">
     <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csslist/master/css/list-responsive.css">
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssbutton/cssbutton-min.css">
+    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/yuicss-common/master/ui.css">
+    <link rel="stylesheet" type="text/css" href="http://tilomitra.github.com/cssextras/cssextras.css">
 
     <style>
-        body {
-            font-family: sans-serif;
-            color: #333;
-            margin-bottom: 30px;
-        }
-
         .header {
-             background: black;
-             min-height: 80px;
-             margin: 0;
-             color:white;
-             padding: 30px 20px;
-         }
-             .header h2 {
-                 font-weight:300;
-                 color: #666;
-                 margin:0;
-             }
-
-        h1,h2,h3,h4,h5,h6 {
-            font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
-                         "Helvetica Neue", sans-serif;
-            font-weight: 300;
+            background: rgb(42, 117, 185);
         }
-        .content {
-            padding:0 30px;
-        }
-
-        .content h2 {
-            color:#2B474F;
-            margin:50px 0 20px 0;
-            font-weight:bold;
-        }
-
+            .header h2 {
+                color: rgb(6, 58, 114);
+            }
+            
         #menu-1 {
             width:120px;
         }
@@ -68,6 +43,15 @@
     </style>
 </head>
 <body class="yui3-skin-sam">
+
+    <div id="headerMenu" class="yui3-menu yui3-menu-open yui3-menu-horizontal yui3-menu-fixed">
+        <ul>
+            <li><a href="http://tilomitra.github.com/cssforms/">Forms</a></li>
+            <li><a href="http://tilomitra.github.com/csstables/">Tables</a></li>
+            <li class="yui3-menu-active"><a href="http://tilomitra.github.com/csslist/">Lists</a></li>
+            <li><a href="http://tilomitra.github.com/cssextras/">Extras</a></li>
+        </ul>
+    </div>
 
     <div class="header y-u-1">
 
@@ -245,6 +229,10 @@
 
 
     </div>
+    <!-- TYPEKIT -->
+    <script type="text/javascript" src="//use.typekit.net/ajf8ggy.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     <script src="http://yui.yahooapis.com/3.8.1/build/yui/yui-min.js"></script>
     <script>
     var Y = YUI({
