@@ -5,7 +5,8 @@
             "cssfiles": [
             	"list-core.css",
                 "list.css",
-                "list-responsive.css"
+                "list-responsive.css",
+                "list-paginator.css"
             ]
         }
     }
