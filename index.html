@@ -8,9 +8,11 @@
     <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csslist/master/css/list-core.css">
     <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csslist/master/css/list.css">
     <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csslist/master/css/list-responsive.css">
+    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csslist/master/css/list-paginator.css">
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssbutton/cssbutton-min.css">
     <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/yuicss-common/master/ui.css">
     <link rel="stylesheet" type="text/css" href="http://tilomitra.github.com/cssextras/cssextras.css">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssbutton/cssbutton-min.css">
 
     <style>
         .header {
@@ -42,7 +44,7 @@
         }
     </style>
 </head>
-<body class="yui3-skin-sam">
+<body>
 
     <div id="headerMenu" class="yui3-menu yui3-menu-open yui3-menu-horizontal yui3-menu-fixed">
         <ul>
@@ -222,6 +224,23 @@
             </div>
 
         </div>
+
+
+        <h2>Paginators</h2>
+        <p>
+            Paginators are list-based elements too! You can implement a paginator control by adding the <code>.yui3-paginator</code> classname to a <code>ul</code> element. Paginator controls generally look like buttons, but omit the <code>yui3-button</code> class name if you want simple paginators. 
+        </p>
+
+        <ul class="yui3-paginator">
+            <li><a class="yui3-button prev" href="#">&#171;</a></li>
+            <li><a class="yui3-button" href="#">1</a></li>
+            <li><a class="yui3-button yui3-button-active" href="#">2</a></li>
+            <li><a class="yui3-button" href="#">3</a></li>
+            <li><a class="yui3-button" href="#">4</a></li>
+            <li><a class="yui3-button" href="#">5</a></li>
+            <li><a class="yui3-button next">&#187;</a></li>
+        </ul>
+
 
 
 
