@@ -7,6 +7,7 @@ The `meta/gallerycss-csslist.json` file lists the current version of the module.
 * Remove `.yui3-menu-light`, and `.yui3-menu-dark`. This was done for k-weight and you can easily achieve this style by styling your own menu. 
 * Remove background gradient on hover, instead replace it with a single color. The gradient was overkill. 
 * Improve the `:hover` rule for `.yui3-menu li a`. It was previously using `:not` and was failing in IE8 and below.
+* Rename `.yui3-menu-active` to `.yui3-menu-selected` to keep in sync with other YUI widgets.
 
 0.1
 ---
