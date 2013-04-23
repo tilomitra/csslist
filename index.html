@@ -4,15 +4,17 @@
     <meta charset='utf-8'>
     <meta name="viewport" content="width = device-width">
     <title>YUI List CSS</title>
-    <link rel="stylesheet" type="text/css" href="http://necolas.github.com/normalize.css/1.0.2/normalize.css">
-    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csslist/master/css/list-core.css">
-    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csslist/master/css/list.css">
-    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csslist/master/css/list-responsive.css">
-    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csslist/master/css/list-paginator.css">
-    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssbutton/cssbutton-min.css">
-    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/yuicss-common/master/ui.css">
-    <link rel="stylesheet" type="text/css" href="http://tilomitra.github.com/cssextras/cssextras.css">
-    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssbutton/cssbutton-min.css">
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/combo?3.9.1/build/cssnormalize/cssnormalize-min.css&amp;3.9.1/build/cssgrids-responsive/cssgrids-responsive-min.css&amp;3.9.1/build/cssbutton/cssbutton-min.css&amp;gallery-2013.03.27-22-06/build/gallerycss-csslist/gallerycss-csslist-min.css&amp;gallery-2013.03.27-22-06/build/gallerycss-csstable/gallerycss-csstable-min.css&amp;gallery-2013.03.27-22-06/build/gallerycss-cssform/gallerycss-cssform-min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/prettypages/gh-pages/ui.css">
+    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/cssextras/master/css/cssextras.css">
+
+    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csstypography/master/css/typography-core.css">
+    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csstypography/master/css/typography.css">
+    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/csstypography/master/css/typography-responsive.css">
+
+    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/ccampbell/rainbow/master/themes/github.css">
 
     <style>
         .header {
@@ -42,10 +44,6 @@
             margin-bottom:15px;
         }
 
-        .dark-ribbon {
-            background: #383B3F;
-            padding-bottom:10px;
-        }
     </style>
 
     <!-- TYPEKIT -->
@@ -60,6 +58,7 @@
             <li><a href="http://tilomitra.github.com/cssforms/">Forms</a></li>
             <li><a href="http://tilomitra.github.com/csstables/">Tables</a></li>
             <li class="yui3-menu-active"><a href="http://tilomitra.github.com/csslist/">Lists</a></li>
+            <li><a href="http://tilomitra.github.com/csstypography/">Typography</a></li>
             <li><a href="http://tilomitra.github.com/cssextras/">Extras</a></li>
         </ul>
     </div>
@@ -71,12 +70,23 @@
 
     </div>
 
-    <div class="content">
-        <h2>First, include it on your page</h2>
+    <div class="content csstype">
+        <h2>Include the CSS on your page</h2>
         <p>
-            <code>gallerycss-csslist</code> is a YUI Gallery module that makes it easy to display pretty menus on your website. Everyone likes pretty menus! 
+            Menus are contained within the CSSList module. You can pull down CSSList from the YUI Gallery. Just include this in your <code>head</code>.
         </p>
 
+        <pre><code data-language="html">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/gallery-2013.03.27-22-06/build/gallerycss-csslist/gallerycss-csslist-min.css">
+        </code></pre>
+
+        <p>The latest (unstable) is on Github, and available for forking.</p>
+        
+        <p class="text-center">
+            <a class="yui3-button yui3-button-success yui3-button-large" href="http://github.com/tilomitra/cssextras">Fork from Github</a>
+        </p>
+
+    
         <h2>Horizontal Menu</h2>
 
         <p>
@@ -209,5 +219,7 @@
 
     });
     </script>
+    <script src="https://rawgithub.com/ccampbell/rainbow/master/js/rainbow.min.js"></script>
+    <script src="https://rawgithub.com/ccampbell/rainbow/master/js/language/generic.js"></script>
 </body>
 </html>
